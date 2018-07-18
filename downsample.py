@@ -30,7 +30,7 @@ class myThread(threading.Thread):
         for i in range(len(self.thread_images)):
             img = self.thread_images[i]
             img = resize(img)
-            thread_resized_imgs.append(edge_map)
+            thread_resized_imgs.append(img)
             if i%20==0:
                 print(i, len(self.thread_images), self.thread_name)
         self._return = thread_resized_imgs
