@@ -1,11 +1,11 @@
-import cv2 as cv
-import ImageNet_loader
+
 import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 import os
 import threading
 import settings 
+
 cores = input()
 cores = cores.split(",")
 cores = [int(c) for c in cores]
