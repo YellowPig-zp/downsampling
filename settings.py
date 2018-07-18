@@ -1,3 +1,3 @@
-IMAGE_PATH = "/home/qinzp97/local/hdd1/picked_dataset/original_images/"
+IMAGE_PATH = "/home/qinzp97/local/hdd1/picked_dataset/edgemaps/"
 
-SAVED_PATH = "/home/qinzp97/local/hdd1/picked_dataset/original_images_resized/"
+SAVED_PATH = "/home/qinzp97/local/hdd1/picked_dataset/edgamaps_resized/"
