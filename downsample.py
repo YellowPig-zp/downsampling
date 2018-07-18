@@ -76,7 +76,7 @@ if __name__ == "__main__":
         for result in my_thread_results:
             imgs_batch.extend(result)
         imgs_batch = np.array(imgs_batch)
-        np.save(saved_directory+batch_name, imgs_batch)
+        np.save(settings.SAVED_PATH+batch_name, imgs_batch)
 
         
 
