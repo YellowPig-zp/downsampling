@@ -29,7 +29,7 @@ class myThread(threading.Thread):
         thread_resized_imgs = []
         for i in range(len(self.thread_images)):
             img = self.thread_images[i]
-            img = self.resize(img)
+            img = resize(img)
             thread_resized_imgs.append(edge_map)
             if i%20==0:
                 print(i, len(self.thread_images), self.thread_name)
