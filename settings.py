@@ -1,3 +1,3 @@
-IMAGE_PATH = "/home/qinzp97/local/hdd1/picked_dataset/edgemaps/"
+IMAGE_PATH = "/home/shared/rodia/datasets/imagenet/train_256x256/"
 
-SAVED_PATH = "/home/qinzp97/local/hdd1/picked_dataset/edgemaps_resized/"
+SAVED_PATH = "/home/shared/rodia/datasets/imagenet/train_64x64/"
